@@ -8,7 +8,6 @@
     "build": "next build",
     "dev": "next dev --port 3000",
     "lint": "next lint",
-    "postbuild": "next-sitemap",
     "start": "next start",
     "ts": "tsc --noEmit --incremental",
     "test": "jest --watch --collect-coverage",
