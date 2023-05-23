@@ -18,13 +18,7 @@ const HEADERS = {
 
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
-  transpilePackages: [
-    '@composable/cms-generic',
-    '@composable/commerce-generic',
-    '@composable/stripe',
-    '@composable/types',
-    '@composable/ui',
-  ],
+  transpilePackages: ['@composable/ui'],
   images: {
     domains: ['loremflickr.com'],
   },
