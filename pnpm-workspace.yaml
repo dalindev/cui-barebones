@@ -1,0 +1,6 @@
+packages:
+  # include apps and packages
+  - 'composable-ui'
+  - 'packages/**'
+  # if required, exclude some directories
+  - '!**/test/**'
